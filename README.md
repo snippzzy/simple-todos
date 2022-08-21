@@ -5,7 +5,7 @@ Simple todo app is an application built for my DevOps Learning Group.
 
 ## Prerequities
 
-set the environment variable:
+set the environment variables:
 
 - MongoUrl
 - JWT
