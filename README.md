@@ -9,3 +9,9 @@ set the environment variable:
 
 - MongoUrl
 - JWT
+
+## Building and Running the App
+
+- npm install --only=prod
+- npm run build
+- npm start
