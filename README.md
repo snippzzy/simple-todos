@@ -26,6 +26,6 @@ set the environment variables:
 1. **Post** <baseUrl>/api/todos _payload:_ `json {item: string}`
 1. **Put** <baseUrl>/api/posts/:postId _payload:_ `json {topic: string, body: string}`
 1. **Delete** <baseUrl>/api/todos/:todoId
-1. **Get** <baseUrl>/api/blogs/postId
-1. **Get** <baseUrl>/api/blogs
+1. **Get** <baseUrl>/api/todos/todoId
+1. **Get** <baseUrl>/api/todos
 
