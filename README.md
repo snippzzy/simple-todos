@@ -12,7 +12,7 @@ set the environment variables:
 
 ## Building and Running the App
 
-- npm install --only=prod
+- npm install 
 - npm run build
 - npm start
 
