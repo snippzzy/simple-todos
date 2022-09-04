@@ -17,7 +17,7 @@ import deleteTodoRouter from './routes/deleteTodo';
 
 const app = express()
 
-
+app.set('trust proxy', false);
 app.use(cors())
 app.use(json())
 app.use(cookieSession({
