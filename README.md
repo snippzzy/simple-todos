@@ -47,6 +47,7 @@ kubectl apply -f infra/
 kubectl get service 
 ```
 - Test the Api using postman
+  Replace the baseUrl and the port-number in the examlples of the Endpoints given above with the external Ip of the loadbalancer and the external port of the             loadbalancer respectively.
 
 
 
