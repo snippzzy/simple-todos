@@ -31,6 +31,9 @@ set the environment variables:
 
 ## EXPOSE THE APP USING LOADBALANCER SERVICE
 
+### prerequisite
+Provision an EKS cluster or any k8s cluster from a cloud provider for this to work.
+
 - First create jwt-secrete
 
 ```
