@@ -29,3 +29,29 @@ set the environment variables:
 1. **Get**   baseUrl:port-number/api/todos/todoId
 1. **Get**   baseUrl:port-number/api/todos
 
+## EXPOSE THE APP USING LOADBALANCER SERVICE
+
+### prerequisite
+Provision an EKS cluster or any k8s cluster from a cloud provider for this to work.
+
+- First create jwt-secrete
+
+```
+kubectl create secret generic jwt-secret --from-literal=JWT=value
+```
+- Apply the K8s manifest file
+
+```
+kubectl apply -f infra/
+```
+- Get the external Ip of the loadbalancer
+
+```
+kubectl get service 
+```
+- Test the Api using postman
+
+  Replace the baseUrl and the port-number in the examlples of the Endpoints given above with the external Ip of the loadbalancer and the external port of the             loadbalancer respectively.
+
+
+
